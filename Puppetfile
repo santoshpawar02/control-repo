@@ -7,7 +7,14 @@ forge 'https://forge.puppet.com'
 mod 'puppetlabs-stdlib', '7.0.0'
 mod 'puppetlabs-concat', '7.0.0'
 mod 'puppetlabs-apache', '6.0.0'
+mod 'ntp',
+  :git  =>  'https://github.com/santoshpawar02/ntp.git',
+  :branch => 'production'
 
+
+mod 'stdlib',
+  :git  =>  'https://github.com/santoshpawar02/stdlib.git',
+  :branch => 'production'
 
 
 
