@@ -4,9 +4,9 @@ forge 'https://forge.puppet.com'
 # Versions should be updated to be the latest at the time you start
 #mod 'puppetlabs/inifile', '3.0.0'
 #mod 'puppetlabs/stdlib',  '6.0.0mod 'puppetlabs/concat',  '7.0.0'
-mod 'puppetlabs-stdlib', '7.0.0'
-mod 'puppetlabs-concat', '7.0.0'
-mod 'puppetlabs-apache', '6.0.0'
+#mod 'puppetlabs-stdlib', '7.0.0'
+#mod 'puppetlabs-concat', '7.0.0'
+#mod 'puppetlabs-apache', '6.0.0'
 mod 'ntp',
   :git  =>  'https://github.com/santoshpawar02/ntp.git',
   :branch => 'production'
